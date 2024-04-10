@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-   <h1 className="text-center">Chai aur code</h1>
+    <main className=''>
+      <h1 className="text-center">Chai aur code</h1>
+  </main>
   )
 }
 
