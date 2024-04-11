@@ -31,8 +31,7 @@ const config: Config = {
 
        animation:{
         spotlight: "spotlight 2s ease .75s 1 forwards",
-        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite"
-      },
+  scroll:"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",      },
       keyframes: {
         spotlight:  {
           "0%": {
@@ -44,7 +43,8 @@ const config: Config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
-      },
+        
+       },
 
 
 

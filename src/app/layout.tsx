@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from '../components/Navbar';
 import HeroSection from "@/components/HeroSection";
+import FeaturesCourses from "@/components/FeaturesCourses";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import MusicSchoolTestimonials from "@/components/TestimonialsCards";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +28,9 @@ export default function RootLayout({
         </div>
         {children}
         <HeroSection />
+        <FeaturesCourses />
+        <WhyChooseUs />
+        <MusicSchoolTestimonials/>
       </body>
 
     </html>
