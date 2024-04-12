@@ -1,4 +1,5 @@
 import FeaturesCourses from '@/components/FeaturesCourses'
+import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import Instructures from '@/components/Instructures'
 import MusicSchoolTestimonials from '@/components/TestimonialsCards'
@@ -14,6 +15,7 @@ function Home() {
       <MusicSchoolTestimonials />
       <UpcomingWebinars />
       <Instructures />
+      <Footer />
     </main>
   )
 }
