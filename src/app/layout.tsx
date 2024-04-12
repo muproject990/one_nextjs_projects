@@ -27,10 +27,7 @@ export default function RootLayout({
           <Navbar />
         </div>
         {children}
-        <HeroSection />
-        <FeaturesCourses />
-        <WhyChooseUs />
-        <MusicSchoolTestimonials/>
+
       </body>
 
     </html>

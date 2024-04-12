@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Link from "next/link";
-import courseData from './data/music_courses.json'
+import courseData from '@/data/music_courses.json'
 import { BackgroundGradient } from './ui/background-gradient'
 
 interface Course {
@@ -16,7 +16,9 @@ interface Course {
 
 
 function FeaturesCourses() {
-    const featuresCourses = courseData.courses.filter(course => course.isFeatured)
+
+    const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured)
+
     return (
         <div className='py-12 bg-gray-900 '>
             <div>
@@ -27,7 +29,7 @@ function FeaturesCourses() {
             </div>
             <div className='mt-10'>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-                    {featuresCourses.map((course: Course) => (
+                    {featuredCourses.map((course: Course) => (
                         <div key={course.id} className='flex justify-center'>
 
 
