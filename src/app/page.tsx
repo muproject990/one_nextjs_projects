@@ -13,7 +13,7 @@ function Home() {
       <WhyChooseUs />
       <MusicSchoolTestimonials />
       <UpcomingWebinars />
-      {/* <Instructures /> */}
+      <Instructures />
     </main>
   )
 }
